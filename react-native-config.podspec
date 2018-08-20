@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.summary      = "Expose config variables to React Native apps"
   s.author       = "Pedro Belo"
 
-  s.homepage     = "https://github.com/luggit/react-native-config"
+  s.homepage     = "https://github.com/nyby/react-native-config"
 
   s.license      = "MIT"
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/luggit/react-native-config.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/nyby/react-native-config", :tag => "#{s.version}" }
 
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true

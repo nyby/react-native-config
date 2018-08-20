@@ -1,4 +1,4 @@
-package com.lugg.ReactNativeConfig;
+package no.nyby.ReactNativeConfig;
 
 import android.content.Context;
 import android.content.res.Resources;

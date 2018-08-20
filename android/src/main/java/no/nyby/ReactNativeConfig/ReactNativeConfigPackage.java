@@ -1,4 +1,4 @@
-package com.lugg.ReactNativeConfig;
+package no.nyby.ReactNativeConfig;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -18,8 +18,8 @@ public class ReactNativeConfigPackage implements ReactPackage {
         );
     }
 
-    public List<Class<? extends JavaScriptModule>> createJSModules() {		
-        return Collections.emptyList();		
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
     }
 
     @Override
